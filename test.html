@@ -3,8 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #zongti{
+            width: 1190px;
+            height: 489px;
+            border: black  1px  solid;
+            margin: auto;
+        }
+        #wenzi_left{
+           width: 190px;
+           height: 470px;
+           margin-top: 8px;
+        }
+        li{
+            font-size: 19px;
+        }
+        .dian li{
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: cyan;
+
+            margin-left: 100px;
+            cursor: pointer;
+        }
+        #tupian_middle1{
+            width: 590px;
+            height: 470px;
+            position: absolute;
+            left: 235px;
+            top: 10px;
+        }
+        #tupian_middle1 div{
+            width: 590px;
+            height: 470px;
+            position: absolute;
+        }
+
+        #tupian_middle1 div:nth-child(1){
+            background-image: url("img/60c783ee.jpg");
+        }
+        #tupian_middle1 div:nth-child(2){
+            background-image: url("img/101bf1b749728008.jpg!q90!cc_590x470.webp");
+        }
+        #tupian_middle1 div:nth-child(3){
+            background-image: url("img/125c67bcd392e4ad.jpg!q90!cc_590x470.webp");
+        }
+        #tupian_middle1 div:nth-child(4){
+            background-image: url("img/781a7410c7c4a34d.jpg!q90!cc_590x470.webp");
+        }
+        #tupian_middle1 div:nth-child(5){
+            background-image: url("img/da8501dd1ca5be37.jpg!q90!cc_590x470.webp");
+        }
+        #tupian_middle1 div:nth-child(6){
+            background-image: url("img/e85e0e2b85223e3a.jpg!q90!cc_590x470.webp");
+        }
+
+        #tupian_middle2{
+            width: 200px;
+            height: 470px;
+            position: absolute;
+            left: 850px;
+            top: 10px;
+            border: black solid 1px;
+        }
+
+        #tupian_middle2 div{
+            border: white  solid  1px;
+            opacity:1;
+            width: 190px;
+            height: 150px;
+            float: left;
+            position: absolute;
+            left: 836px;
+            top: 10px;
+        }
+        #tupian_middle2 div{
+            width: 190px;
+            height: 150px;
+            float: left;
+            position: absolute;
+            left: 836px;
+            top: 170px;
+            border: black solid 1px;
+        }
+        #tupian_middle2 div{
+            width: 190px;
+            height: 150px;
+            float: left;
+            position: absolute;
+            border: black solid 1px;
+            left: 836px;
+            top: 330px;
+        }
+        #tupian_middle2 div:nth-child(1){
+            background-image: url("img/3e7093b76fba6d4f.jpg!q90!cc_190x150") ;
+        }
+        #tupian_middle2 div:nth-child(2){
+            background-image: url("img/142805c7775ef03a.jpg!q90!cc_190x150") ;
+        }
+        #tupian_middle2 div:nth-child(3){
+            background-image: url("img/097c10c96aaf3339.jpg!q90!cc_190x150") ;
+        }
+
+        @keyframes in {
+            from{
+                left: 590px;
+          }
+            to{
+                right: 0px;
+            }
+        }
+        @keyframes out {
+            from{
+                left: 0px;
+            }
+            to{
+                right: 0px;
+            }
+        }
+
+        .a{
+animation: in 1s;
+            left: 0px;
+        }
+    </style>
 </head>
 <body>
+<div id="zongti">
+<div id="wenzi_left">
+    <ul>
+        <li>家用电器
+            <div></div>
+        </li>
+        <li>手机/运营商/数码
+            <div></div>
+        </li>
+        <li>电脑/办公
+            <div></div>
+        </li>
+        <li>家具/家居/家装/厨具
+            <div></div>
+        </li>
+        <li>男装/女装/童装/内衣
+            <div></div>
+        </li>
+        <li>美妆/个人请护/宠物
+            <div></div>
+        </li>
+        <li>女鞋/箱包/珠宝/钟表
+            <div></div>
+        </li>
+        <li>男鞋/运动鞋/户外
+            <div></div>
+        </li>
+        <li>房产/汽车/汽车用品
+            <div></div>
+        </li>
+        <li>母婴/玩具乐器
+            <div></div>
+        </li>
+        <li>食品/酒类/生鲜/特产
+            <div></div>
+        </li>
+        <li>艺术/礼品鲜花/农资绿植
+            <div></div>
+        </li>
+        <li>医药保健/计生情趣
+            <div></div>
+        </li>
+        <li>图书/文娱/电子书
+            <div></div>
+        </li>
+        <li>机票/酒店/旅游/生活
+            <div></div>
+        </li>
+        <li>理财/众筹/白条/保险
+            <div></div>
+        </li>
+        <li>安装/维修/清洗/二手
+            <div></div>
+        </li>
+        <li>工业品
+            <div></div>
+        </li>
+    </ul>
+</div>
+<div id="tupian_middle1">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="f"></div>
+    <ul  class="dian">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
 
+    </ul>
+</div>
+<div id="tupian_middle2">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</div>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+
+
+</script>
 </body>
 </html>
